@@ -13,6 +13,7 @@ include vendor/xiaomi/unicorn/BoardConfigVendor.mk
 DEVICE_PATH := device/xiaomi/unicorn
 
 # Audio
+AUDIO_FEATURE_ENABLED_CIRRUS_CALIBRATION_RESISTANCE := true
 AUDIO_FEATURE_ENABLED_ULTRASOUND_PROXIMITY := true
 
 # Properties
